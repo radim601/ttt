@@ -29,13 +29,13 @@ jobs:
 
       - name: Set job output
         id: set_output
+        if: always()
         run: |
           echo "result=${{ job.status }}" >> $GITHUB_OUTPUT
 
   report:
     needs: build-and-test
     runs-on: ubuntu-24.04
-    if: always()
     steps:
       - name: Show pipeline status
         run: |
