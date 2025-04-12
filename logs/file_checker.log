@@ -1,0 +1,34 @@
+2025-04-12 16:47:27,105 - INFO - Logging started. Logs are saved to: /app/logs/file_checker.log
+2025-04-12 16:47:27,105 - INFO - Starting file check in 'user' folders within: /app/lab_ready
+2025-04-12 16:47:27,105 - INFO - 
+Checking folder: /app/lab_ready/xv6-labs-2024-util/user
+2025-04-12 16:47:27,105 - INFO - Checking file: /app/lab_ready/xv6-labs-2024-util/user/sleep.c
+2025-04-12 16:47:27,106 - INFO - Checking file: /app/lab_ready/xv6-labs-2024-util/user/user.ld
+2025-04-12 16:47:27,106 - INFO - Checking file: /app/lab_ready/xv6-labs-2024-util/user/usertests.c
+2025-04-12 16:47:27,107 - INFO - Checking file: /app/lab_ready/xv6-labs-2024-util/user/echo.c
+2025-04-12 16:47:27,107 - INFO - Checking file: /app/lab_ready/xv6-labs-2024-util/user/primes.c
+2025-04-12 16:47:27,107 - INFO - Checking file: /app/lab_ready/xv6-labs-2024-util/user/xargstest.sh
+2025-04-12 16:47:27,107 - INFO - Checking file: /app/lab_ready/xv6-labs-2024-util/user/xargs.c
+2025-04-12 16:47:27,108 - INFO - Checking file: /app/lab_ready/xv6-labs-2024-util/user/ulib.c
+2025-04-12 16:47:27,108 - INFO - Checking file: /app/lab_ready/xv6-labs-2024-util/user/usys.pl
+2025-04-12 16:47:27,108 - INFO - Checking file: /app/lab_ready/xv6-labs-2024-util/user/grep.c
+2025-04-12 16:47:27,108 - INFO - Checking file: /app/lab_ready/xv6-labs-2024-util/user/ln.c
+2025-04-12 16:47:27,108 - INFO - Checking file: /app/lab_ready/xv6-labs-2024-util/user/sh.c
+2025-04-12 16:47:27,108 - INFO - Checking file: /app/lab_ready/xv6-labs-2024-util/user/init.c
+2025-04-12 16:47:27,109 - INFO - Checking file: /app/lab_ready/xv6-labs-2024-util/user/umalloc.c
+2025-04-12 16:47:27,109 - INFO - Checking file: /app/lab_ready/xv6-labs-2024-util/user/printf.c
+2025-04-12 16:47:27,109 - INFO - Checking file: /app/lab_ready/xv6-labs-2024-util/user/forktest.c
+2025-04-12 16:47:27,109 - INFO - Checking file: /app/lab_ready/xv6-labs-2024-util/user/pingpong.c
+2025-04-12 16:47:27,109 - INFO - Checking file: /app/lab_ready/xv6-labs-2024-util/user/mkdir.c
+2025-04-12 16:47:27,109 - INFO - Checking file: /app/lab_ready/xv6-labs-2024-util/user/zombie.c
+2025-04-12 16:47:27,110 - INFO - Checking file: /app/lab_ready/xv6-labs-2024-util/user/user.h
+2025-04-12 16:47:27,110 - INFO - Checking file: /app/lab_ready/xv6-labs-2024-util/user/initcode.S
+2025-04-12 16:47:27,110 - INFO - Checking file: /app/lab_ready/xv6-labs-2024-util/user/stressfs.c
+2025-04-12 16:47:27,110 - INFO - Checking file: /app/lab_ready/xv6-labs-2024-util/user/kill.c
+2025-04-12 16:47:27,110 - INFO - Checking file: /app/lab_ready/xv6-labs-2024-util/user/grind.c
+2025-04-12 16:47:27,110 - INFO - Checking file: /app/lab_ready/xv6-labs-2024-util/user/wc.c
+2025-04-12 16:47:27,110 - INFO - Checking file: /app/lab_ready/xv6-labs-2024-util/user/cat.c
+2025-04-12 16:47:27,111 - INFO - Checking file: /app/lab_ready/xv6-labs-2024-util/user/rm.c
+2025-04-12 16:47:27,111 - INFO - Checking file: /app/lab_ready/xv6-labs-2024-util/user/ls.c
+2025-04-12 16:47:27,111 - INFO - Checking file: /app/lab_ready/xv6-labs-2024-util/user/find.c
+2025-04-12 16:47:27,111 - INFO - All files meet the requirements!

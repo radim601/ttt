@@ -1,0 +1,11 @@
+2025-04-12 16:47:27,062 - INFO - Logging to /app/logs/load.log
+2025-04-12 16:47:27,064 - INFO - Temporary directory created: /tmp/tmp9uwm9bf9
+2025-04-12 16:47:27,065 - INFO - Extracting archive: /app/solution/xv6-labs-2024-util.zip
+2025-04-12 16:47:27,071 - INFO - Archive successfully extracted to /tmp/tmp9uwm9bf9
+2025-04-12 16:47:27,071 - INFO - Searching for patch file in /tmp/tmp9uwm9bf9
+2025-04-12 16:47:27,072 - WARNING - No patch file found!
+2025-04-12 16:47:27,072 - WARNING - No patch found. Skipping patch application.
+2025-04-12 16:47:27,072 - INFO - Output directory set to: /app/lab_ready
+2025-04-12 16:47:27,076 - INFO - Lab work successfully prepared in: /app/lab_ready
+2025-04-12 16:47:27,076 - INFO - Script directory: /app/scripts
+2025-04-12 16:47:27,076 - INFO - Lab ready directory: /app/lab_ready

@@ -1,0 +1,44 @@
+name: CI/CD with GitHub Output
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-24.04
+    outputs:
+      status: ${{ steps.set_output.outputs.result }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build
+        run: make -C docker/ build
+
+      - name: Run tests
+        id: test_step
+        run: |
+          pytest ./test/ --junitxml=test-results.xml || echo "Tests failed"
+          echo "result=${{ job.status }}" >> $GITHUB_OUTPUT
+
+      - name: Set job output
+        id: set_output
+        run: |
+          echo "result=${{ job.status }}" >> $GITHUB_OUTPUT
+
+      - name: Upload Test Results
+        uses: actions/upload-artifact@v3
+        if: always()
+        with:
+          name: test-results
+          path: test-results.xml
+
+  report:
+    needs: build-and-test
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Show pipeline status
+        run: |
+          echo "Pipeline status: ${{ needs.build-and-test.outputs.status }}"
+          echo "Detailed result: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"

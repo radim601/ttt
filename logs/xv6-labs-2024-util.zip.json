@@ -1,0 +1,227 @@
+[
+    {
+        "timestamp": "2025-04-12 16:47:27,062",
+        "level": "INFO",
+        "message": "Logging to /app/logs/load.log"
+    },
+    {
+        "timestamp": "2025-04-12 16:47:27,064",
+        "level": "INFO",
+        "message": "Temporary directory created: /tmp/tmp9uwm9bf9"
+    },
+    {
+        "timestamp": "2025-04-12 16:47:27,065",
+        "level": "INFO",
+        "message": "Extracting archive: /app/solution/xv6-labs-2024-util.zip"
+    },
+    {
+        "timestamp": "2025-04-12 16:47:27,071",
+        "level": "INFO",
+        "message": "Archive successfully extracted to /tmp/tmp9uwm9bf9"
+    },
+    {
+        "timestamp": "2025-04-12 16:47:27,071",
+        "level": "INFO",
+        "message": "Searching for patch file in /tmp/tmp9uwm9bf9"
+    },
+    {
+        "timestamp": "2025-04-12 16:47:27,072",
+        "level": "WARNING",
+        "message": "No patch file found!"
+    },
+    {
+        "timestamp": "2025-04-12 16:47:27,072",
+        "level": "WARNING",
+        "message": "No patch found. Skipping patch application."
+    },
+    {
+        "timestamp": "2025-04-12 16:47:27,072",
+        "level": "INFO",
+        "message": "Output directory set to: /app/lab_ready"
+    },
+    {
+        "timestamp": "2025-04-12 16:47:27,076",
+        "level": "INFO",
+        "message": "Lab work successfully prepared in: /app/lab_ready"
+    },
+    {
+        "timestamp": "2025-04-12 16:47:27,076",
+        "level": "INFO",
+        "message": "Script directory: /app/scripts"
+    },
+    {
+        "timestamp": "2025-04-12 16:47:27,076",
+        "level": "INFO",
+        "message": "Lab ready directory: /app/lab_ready"
+    },
+    {
+        "timestamp": "2025-04-12 16:47:27,105",
+        "level": "INFO",
+        "message": "Logging started. Logs are saved to: /app/logs/file_checker.log"
+    },
+    {
+        "timestamp": "2025-04-12 16:47:27,105",
+        "level": "INFO",
+        "message": "Starting file check in 'user' folders within: /app/lab_ready"
+    },
+    {
+        "timestamp": "2025-04-12 16:47:27,105",
+        "level": "INFO",
+        "message": "Checking file: /app/lab_ready/xv6-labs-2024-util/user/sleep.c"
+    },
+    {
+        "timestamp": "2025-04-12 16:47:27,106",
+        "level": "INFO",
+        "message": "Checking file: /app/lab_ready/xv6-labs-2024-util/user/user.ld"
+    },
+    {
+        "timestamp": "2025-04-12 16:47:27,106",
+        "level": "INFO",
+        "message": "Checking file: /app/lab_ready/xv6-labs-2024-util/user/usertests.c"
+    },
+    {
+        "timestamp": "2025-04-12 16:47:27,107",
+        "level": "INFO",
+        "message": "Checking file: /app/lab_ready/xv6-labs-2024-util/user/echo.c"
+    },
+    {
+        "timestamp": "2025-04-12 16:47:27,107",
+        "level": "INFO",
+        "message": "Checking file: /app/lab_ready/xv6-labs-2024-util/user/primes.c"
+    },
+    {
+        "timestamp": "2025-04-12 16:47:27,107",
+        "level": "INFO",
+        "message": "Checking file: /app/lab_ready/xv6-labs-2024-util/user/xargstest.sh"
+    },
+    {
+        "timestamp": "2025-04-12 16:47:27,107",
+        "level": "INFO",
+        "message": "Checking file: /app/lab_ready/xv6-labs-2024-util/user/xargs.c"
+    },
+    {
+        "timestamp": "2025-04-12 16:47:27,108",
+        "level": "INFO",
+        "message": "Checking file: /app/lab_ready/xv6-labs-2024-util/user/ulib.c"
+    },
+    {
+        "timestamp": "2025-04-12 16:47:27,108",
+        "level": "INFO",
+        "message": "Checking file: /app/lab_ready/xv6-labs-2024-util/user/usys.pl"
+    },
+    {
+        "timestamp": "2025-04-12 16:47:27,108",
+        "level": "INFO",
+        "message": "Checking file: /app/lab_ready/xv6-labs-2024-util/user/grep.c"
+    },
+    {
+        "timestamp": "2025-04-12 16:47:27,108",
+        "level": "INFO",
+        "message": "Checking file: /app/lab_ready/xv6-labs-2024-util/user/ln.c"
+    },
+    {
+        "timestamp": "2025-04-12 16:47:27,108",
+        "level": "INFO",
+        "message": "Checking file: /app/lab_ready/xv6-labs-2024-util/user/sh.c"
+    },
+    {
+        "timestamp": "2025-04-12 16:47:27,108",
+        "level": "INFO",
+        "message": "Checking file: /app/lab_ready/xv6-labs-2024-util/user/init.c"
+    },
+    {
+        "timestamp": "2025-04-12 16:47:27,109",
+        "level": "INFO",
+        "message": "Checking file: /app/lab_ready/xv6-labs-2024-util/user/umalloc.c"
+    },
+    {
+        "timestamp": "2025-04-12 16:47:27,109",
+        "level": "INFO",
+        "message": "Checking file: /app/lab_ready/xv6-labs-2024-util/user/printf.c"
+    },
+    {
+        "timestamp": "2025-04-12 16:47:27,109",
+        "level": "INFO",
+        "message": "Checking file: /app/lab_ready/xv6-labs-2024-util/user/forktest.c"
+    },
+    {
+        "timestamp": "2025-04-12 16:47:27,109",
+        "level": "INFO",
+        "message": "Checking file: /app/lab_ready/xv6-labs-2024-util/user/pingpong.c"
+    },
+    {
+        "timestamp": "2025-04-12 16:47:27,109",
+        "level": "INFO",
+        "message": "Checking file: /app/lab_ready/xv6-labs-2024-util/user/mkdir.c"
+    },
+    {
+        "timestamp": "2025-04-12 16:47:27,109",
+        "level": "INFO",
+        "message": "Checking file: /app/lab_ready/xv6-labs-2024-util/user/zombie.c"
+    },
+    {
+        "timestamp": "2025-04-12 16:47:27,110",
+        "level": "INFO",
+        "message": "Checking file: /app/lab_ready/xv6-labs-2024-util/user/user.h"
+    },
+    {
+        "timestamp": "2025-04-12 16:47:27,110",
+        "level": "INFO",
+        "message": "Checking file: /app/lab_ready/xv6-labs-2024-util/user/initcode.S"
+    },
+    {
+        "timestamp": "2025-04-12 16:47:27,110",
+        "level": "INFO",
+        "message": "Checking file: /app/lab_ready/xv6-labs-2024-util/user/stressfs.c"
+    },
+    {
+        "timestamp": "2025-04-12 16:47:27,110",
+        "level": "INFO",
+        "message": "Checking file: /app/lab_ready/xv6-labs-2024-util/user/kill.c"
+    },
+    {
+        "timestamp": "2025-04-12 16:47:27,110",
+        "level": "INFO",
+        "message": "Checking file: /app/lab_ready/xv6-labs-2024-util/user/grind.c"
+    },
+    {
+        "timestamp": "2025-04-12 16:47:27,110",
+        "level": "INFO",
+        "message": "Checking file: /app/lab_ready/xv6-labs-2024-util/user/wc.c"
+    },
+    {
+        "timestamp": "2025-04-12 16:47:27,110",
+        "level": "INFO",
+        "message": "Checking file: /app/lab_ready/xv6-labs-2024-util/user/cat.c"
+    },
+    {
+        "timestamp": "2025-04-12 16:47:27,111",
+        "level": "INFO",
+        "message": "Checking file: /app/lab_ready/xv6-labs-2024-util/user/rm.c"
+    },
+    {
+        "timestamp": "2025-04-12 16:47:27,111",
+        "level": "INFO",
+        "message": "Checking file: /app/lab_ready/xv6-labs-2024-util/user/ls.c"
+    },
+    {
+        "timestamp": "2025-04-12 16:47:27,111",
+        "level": "INFO",
+        "message": "Checking file: /app/lab_ready/xv6-labs-2024-util/user/find.c"
+    },
+    {
+        "timestamp": "2025-04-12 16:47:27,111",
+        "level": "INFO",
+        "message": "All files meet the requirements!"
+    },
+    {
+        "timestamp": "2025-04-12 16:47:27",
+        "level": "INFO",
+        "message": "Process started"
+    },
+    {
+        "timestamp": "2025-04-12 16:47:47",
+        "level": "INFO",
+        "message": "Process finished with status: TRUE"
+    }
+]
