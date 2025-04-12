@@ -23,6 +23,7 @@ jobs:
 
       - name: Run tests
         id: test_step
+        if: always()
         run: |
           pytest ./test/ --junitxml=test-results.xml || echo "Tests failed"
           echo "result=${{ job.status }}" >> $GITHUB_OUTPUT
