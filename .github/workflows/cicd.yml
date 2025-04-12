@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-24.04
     outputs:
       status: ${{ steps.set_output.outputs.result }}
+    if: always()
     steps:
       - uses: actions/checkout@v4
 
