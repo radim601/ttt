@@ -9,6 +9,7 @@ jobs:
   build-and-test:
     runs-on: ubuntu-24.04
     outputs:
+      if: always()
       status: ${{ steps.set_output.outputs.result }}
     steps:
       - uses: actions/checkout@v4
@@ -23,14 +24,12 @@ jobs:
 
       - name: Run tests
         id: test_step
-        if: always()
         run: |
           pytest ./test/ --junitxml=test-results.xml || echo "Tests failed"
           echo "result=${{ job.status }}" >> $GITHUB_OUTPUT
 
       - name: Set job output
         id: set_output
-        if: always()
         run: |
           echo "result=${{ job.status }}" >> $GITHUB_OUTPUT
 
