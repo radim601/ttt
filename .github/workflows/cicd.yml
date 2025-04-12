@@ -9,8 +9,8 @@ jobs:
   build-and-test:
     runs-on: ubuntu-24.04
     outputs:
-      if: always()
       status: ${{ steps.set_output.outputs.result }}
+    if: always()
     steps:
       - uses: actions/checkout@v4
 
