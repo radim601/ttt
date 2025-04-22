@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-24.04
     outputs:
       status: ${{ steps.set_output.outputs.result }}
+    if: always()
     steps:
       - uses: actions/checkout@v4
 
@@ -20,6 +21,9 @@ jobs:
 
       - name: Build
         run: make -C docker/ build
+
+      - name: Help
+        run: make -C docker/ run ARGS="--help" 
 
       - name: Run tests
         id: test_step
